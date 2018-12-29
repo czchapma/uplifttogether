@@ -1,0 +1,33 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3372886, 2017-04-11T21:29:45-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: ServusSlab-Medium by Dada Studio
+ * URL: http://www.myfonts.com/fonts/dada-studio/servus-slab/medium/
+ *
+ * Webfont: ServusSlab-Regular by Dada Studio
+ * URL: http://www.myfonts.com/fonts/dada-studio/servus-slab/regular/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3372886
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Micha&#x0142; Jaroci&#x0144;ski Dada Studio. All rights reserved.
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/337756");
+
+
+@font-face {font-family: 'ServusSlab-Medium';src: url('../fonts/337756_0_0.eot');src: url('../fonts/337756_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/337756_0_0.woff2') format('woff2'),url('../fonts/337756_0_0.woff') format('woff'),url('../fonts/337756_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'ServusSlab-Regular';src: url('../fonts/337756_1_0.eot');src: url('../fonts/337756_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/337756_1_0.woff2') format('woff2'),url('../fonts/337756_1_0.woff') format('woff'),url('../fonts/337756_1_0.ttf') format('truetype');}

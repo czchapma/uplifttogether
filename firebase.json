@@ -1,0 +1,16 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "cleanUrls" : true,
+    "redirects": [
+      {
+        "source": "/nomagic",
+        "destination": "/nomagicinabuse",
+        "type": 301
+      }
+    ]
+  }
+}
