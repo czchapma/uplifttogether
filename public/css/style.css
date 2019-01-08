@@ -1388,7 +1388,7 @@ figure {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
-    width: 200px;
+    height: 200px;
 }
 
 .team-member h4 {
