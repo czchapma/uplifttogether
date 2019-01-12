@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "uplift-385d4"
+    "default": "uplift-385d4",
+    "staging": "uplift-385d4"
   }
 }
