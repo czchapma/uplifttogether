@@ -4,13 +4,10 @@
   },
   "hosting": {
     "public": "public",
-    "cleanUrls" : true,
-    "redirects": [
-      {
-        "source": "/nomagic",
-        "destination": "/nomagicinabuse",
-        "type": 301
-      }
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }
