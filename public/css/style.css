@@ -747,6 +747,14 @@ figure {
   }
 }
 
+#fh5co-portfolio-list li.top {
+  width: 65.5%;
+}
+
+#fh5co-portfolio-list li.bottom {
+  width: 100%;
+}
+
 #fh5co-features {
   padding: 4em 0;
 }
