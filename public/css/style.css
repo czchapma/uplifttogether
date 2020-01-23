@@ -747,11 +747,7 @@ figure {
   }
 }
 
-#fh5co-portfolio-list li.top {
-  width: 65.5%;
-}
-
-#fh5co-portfolio-list li.bottom {
+#fh5co-portfolio-list li.full {
   width: 100%;
 }
 
