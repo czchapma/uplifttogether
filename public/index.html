@@ -101,17 +101,17 @@
                 <div id="slider" data-section="home">
                     <div class="owl-carousel owl-carousel-fullwidth">
 
-                        <div class="item" style="background-image:url(images/blm.png);">
+                        <div class="item" style="background-image:url(images/header-img2.jpg);">
                             <!-- <img alt="images/trainings.png" alt="Free HTML5 Template by FREEHTML5.co"> -->
                             <div class="container" style="position: relative;">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="fh5co-owl-text-wrap">
                                             <div class="fh5co-owl-text caption">
-                                                <h1 class="fh5co-lead to-animate">#BlackLivesMatter</h1>
-                                                <h2 class="fh5co-sub-lead to-animate">Change is needed in online communities</h3>
+                                                <h1 id="home_title_1" class="fh5co-lead to-animate"></h1>
+                                                <h2 id="home_message_1" class="fh5co-sub-lead to-animate"></h3>
                                                     <!-- <h2 class="fh5co-sub-lead to-animate">We work with convention organizers to train staff and volunteers to respond to incidents, understand community issues, and develop good policies.</h3> -->
-                                                    <p class="to-animate-2"><a href="https://medium.com/@UpliftTogether/blacklivesmatter-464ed396970a" class="btn btn-primary btn-lg">Read Statement</a></p>
+                                                    <p class="to-animate-2"><a id="home_link_1" class="btn btn-primary btn-lg"></a></p>
                                                     </div>
                                         </div>
                                     </div>
@@ -129,14 +129,9 @@
                                     <div class="col-md-7 col-sm-7">
                                         <div class="fh5co-owl-text-wrap">
                                             <div class="fh5co-owl-text">
-                                                <h1 class="fh5co-lead to-animate">Convention Resources</h1>
-                                                <h2 class="fh5co-sub-lead to-animate">Lead a community or run a convention? </h3>
-                                                    <p class="to-animate-2"><a href="https://conresources.org" class="btn btn-primary btn-lg">Check out our resources</a></p>
-
-                                                    <!-- <h1 class="fh5co-lead to-animate">Elephant At The Con</h1>
-                                                     <h2 class="fh5co-sub-lead to-animate">We survey convention attendees about harassment and abuse and create action plans
-                                                     for convention organizers</h3>
-                                                     <p class="to-animate-2"><a href"http://elephantatthecon.com" class="btn btn-primary btn-lg">Learn More</a></p> -->
+                                                <h1 id="home_title_2" class="fh5co-lead to-animate"></h1>
+                                                <h2 id="home_message_2" class="fh5co-sub-lead to-animate"></h3>
+                                                    <p class="to-animate-2"><a id="home_link_2" class="btn btn-primary btn-lg"></a></p>
                                                     </div>
                                         </div>
                                     </div>
@@ -144,17 +139,16 @@
                             </div>
                         </div>
 
-                        <div class="item" style="background-color: rgb(181,216,221); background-image:url(images/nmia_banner.png); background-size: contain; background-position: left center;">
+                        <div class="item" style="background-image:url(images/header-img3.jpg);">
                             <div class="container" style="position: relative;">
                                 <div class="row">
                                     <!-- <div class="col-md-8 col-md-offset-2 text-center"> -->
                                     <div class="col-md-7 col-sm-7">
                                         <div class="fh5co-owl-text-wrap">
                                             <div class="fh5co-owl-text absolute-bottom">
-                                                <!-- <span class="to-animate" style="background-image:url(images/nomagicbanner.png); width=100%; margin: 0 auto;" class="to-animate"/> -->
-                                                <!-- <h1 class="fh5co-lead to-animate">No Magic In Abuse</h1> -->
-                                                <!-- <h2 class="fh5co-sub-lead to-animate">Our new campaign empowering fans to speak out against relationship violence</h3> -->
-                                                <p class="to-animate absolute-bottom"><a href="nomagicinabuse.html" class="btn btn-primary btn-lg">Learn More</a></p>
+                                                <h1 id="home_title_3" class="fh5co-lead to-animate"></h1>
+                                                <h2 id="home_message_3" class="fh5co-sub-lead to-animate"></h3>
+                                                <p class="to-animate-2"><a id="home_link_3" class="btn btn-primary btn-lg"></a></p>
                                             </div>
                                         </div>
                                         <!-- <img class="fh5co-lead to-animate img-responsive" src="images/NMIA_FacebookOverlay.png"/> -->
@@ -298,10 +292,21 @@
         <!-- carousel-->
         <script src="js/owl.carousel.min.js"></script>
 
+        <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+        <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-remote-config.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
 
 
         <!-- Main JS -->
         <script src="js/main.js"></script>
+        <script src="js/remoteconfig.js"></script>
 
     </body>
 </html>

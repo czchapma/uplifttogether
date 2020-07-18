@@ -3,7 +3,6 @@
 	'use strict';
 
 
-
 	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
@@ -16,6 +15,9 @@
 	    );
 	};
 
+
+
+
 	// Carousel Feature Slide
 var owlCrouselFeatureSlide = function() {
 
@@ -25,7 +27,6 @@ var owlCrouselFeatureSlide = function() {
 		var current = elem.item.index;
 		$(elem.target).find(".owl-item").eq(current).find(".to-animate").removeClass('fadeInUp animated');
 		$(elem.target).find(".owl-item").eq(current).find(".to-animate-2").removeClass('fadeInUp animated');
-
 	});
 	owl.on('initialized.owl.carousel changed.owl.carousel',function(elem){
 		setTimeout(function(){
@@ -177,8 +178,6 @@ var owlCrouselFeatureSlide = function() {
 		offcanvas();
 		mobileMenuOutsideClick();
 		contentWayPoint();
-
-
 	});
 
 
@@ -196,4 +195,5 @@ $(document).ready(function(){
     }).on('hide.bs.collapse', function(){
         $(this).parent().find(".glyphicon").removeClass("glyphicon-minus").addClass("glyphicon-plus");
     });
+
 });

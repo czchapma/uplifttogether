@@ -1515,3 +1515,7 @@ figure {
 bottom: 0;
 right: 0;
 }
+
+.owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
+  /*color: rgb(67,151,168);*/
+}
