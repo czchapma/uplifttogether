@@ -10,6 +10,11 @@
         "source": "/nomagic",
         "destination": "/nomagicinabuse",
         "type": 301
+      },
+      {
+        "source": "/P4A",
+        "destination": "/p4a",
+        "type": 301
       }
     ]
   }
