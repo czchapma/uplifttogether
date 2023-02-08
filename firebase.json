@@ -15,6 +15,13 @@
         "source": "/P4A",
         "destination": "/p4a",
         "type": 301
+      },
+
+      {
+        "source": "/supporting-survivors",
+	"destination" : "/supporting",
+	"type": 301
+
       }
     ]
   }
