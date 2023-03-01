@@ -22,6 +22,12 @@
 	"destination" : "/supporting",
 	"type": 301
 
+      },
+      
+      {
+        "source" : "/survey",
+        "destination" : "https://forms.gle/VBT5kZrxvpNgStSv5",
+        "type" : 307
       }
     ]
   }
