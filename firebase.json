@@ -34,6 +34,11 @@
         "source" : "/adps",
         "destination" : "https://docs.google.com/document/d/1sH-gi35tc29fEzPfGkqfWhZ498Dv8-HwJtLdW1uNKTo/edit?usp=sharing",
         "type" : 307
+      },
+      {
+        "source" : "/course",
+        "destination" : "https://uplifttogether.thinkific.com/courses/community-leader-training",
+        "type" : 307
       }
     ]
   }
